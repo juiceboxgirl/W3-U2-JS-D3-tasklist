@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(76, 214, 198);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: overline;
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+  margin: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5%;
+  border-radius: 4%;
+}

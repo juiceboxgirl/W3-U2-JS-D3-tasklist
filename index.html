@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>ToDo 4 You</title>
   </head>
   <body>
     <h1>Too much stuff to do? Make a list!</h1>
-    <input type="text" id="taskInput" placeholder="Write your task here" />
-    <button onclick="addTask()">Another one bites the task</button>
-    <ul id="taskContainer"></ul>
+    <div class="container">
+      <input type="text" id="taskInput" placeholder="Write your task here" />
+      <button onclick="addTask()">Another one bites the task</button>
+      <ul id="taskContainer"></ul>
+    </div>
 
     <script src="W3D3.js"></script>
   </body>

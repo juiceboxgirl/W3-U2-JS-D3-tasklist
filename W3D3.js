@@ -4,11 +4,9 @@ const taskList = [];
 function addTask() {
   const taskInput = document.getElementById("taskInput");
   const task = taskInput.value;
-  if (task.trim() !== "") {
-    taskList.push({ name: task, completed: false });
-    taskInput.value = "";
-    displayTasks();
-  }
+  taskList.push({ name: task, completed: false });
+  taskInput.value = "";
+  displayTasks();
 }
 
 // segnare task completata
