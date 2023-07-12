@@ -35,11 +35,11 @@ function displayTasks() {
     }
 
     const completeButton = document.createElement("button");
-    completeButton.innerHTML = "Complete";
+    completeButton.innerHTML = "D-d-done!";
     completeButton.addEventListener("click", () => markTaskCompleted(index));
 
     const removeButton = document.createElement("button");
-    removeButton.innerHTML = "Remove";
+    removeButton.innerHTML = "Giving up is okay too";
     removeButton.addEventListener("click", () => removeTask(index));
 
     taskItem.appendChild(taskName);
